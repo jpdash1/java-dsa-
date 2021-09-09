@@ -4,7 +4,7 @@ class selectionsort {
     private static int start;
 
     public static void main(String[] args) {
-        int[] arr = {4, 5, 1, 2, 3};
+        int[] arr = {4,1,2,3,5};
         selection(arr);
         System.out.println(Arrays.toString(arr));
     }
@@ -16,6 +16,7 @@ class selectionsort {
 
             swap(arr,maxIndex,last);
         }
+
 
     }
     static void swap(int[] arr, int first, int second){
